@@ -14,7 +14,7 @@ $("#joke-2").append("It gets jalepeño face!");
 
 // Task 3: Create a click handler that appends a paragraph with "It was two-tired" in it.
 $("#joke-3").click(function(){
-    $("#joke-3").append("It was two-wired");
+    $("#joke-3").append("It was two-tired");
     });
 
 
