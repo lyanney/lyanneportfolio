@@ -1,0 +1,107 @@
+body{
+    background-image:url("https://s-media-cache-ak0.pinimg.com/originals/45/21/27/452127c9827c498e8bc5889eb9ad03ed.jpg");
+    }
+#port{
+    font-family: "Courier New";   
+    font-size: 50px;
+    background-color: #a8c7ff;
+    height:60px;
+    width:545px;
+    border-radius:5px;
+    position:fixed;
+    background: rgba(76, 185, 500, 0.7);
+    
+    
+    }    
+#truths{
+   
+    /* light pink flower ombre */
+    height:150px;
+    width:150px;
+    background:  url("https://s-media-cache-ak0.pinimg.com/originals/34/70/63/347063a297cd1e753e8080e078823010.jpg") no-repeat right top;
+    background-size:contain;
+    position: absolute;
+    top: 500px;
+    left: 340px;
+    border-radius:90px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "courier new";
+    
+}
+#hack{
+   
+    /* daisy */
+    height:200px;
+    width:200px;
+    background:  url("https://s-media-cache-ak0.pinimg.com/originals/b9/71/a2/b971a28947b3539d5fefec3a6f490220.png") no-repeat right top;
+    background-size:cover;
+    position: absolute;
+    top: 290px;
+    left: 740px;
+    border-radius:100px;
+    text-align: center ;
+    font-weight: bold;
+    font-family: "courier new";
+    padding-top: 0px;
+}
+
+#jokes{
+   
+    /* pink flower */
+    height:190px;
+    width:190px;
+    background:  url("http://68.media.tumblr.com/635fdd3f355cc7a84010f97df6deecc0/tumblr_mmg5sw4BmK1rm6jd7o1_1280.png") no-repeat right top;
+    background-size:contain;
+    position: absolute;
+    top: 1000px;
+    left: 770px;
+    border-radius:100px;
+     text-align: center;
+      font-weight: bold;
+    font-family: "courier new";
+}
+    
+#project{
+   
+    /* red purple-ish flower */
+    height:200px;
+    width:200px;
+    background:  url("http://img13.deviantart.net/13fa/i/2016/271/9/d/radiant_red_gerbera_daisy_by_jeanicebartzen27-daj5gti.png") no-repeat right top;
+    background-size:contain;
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    border-radius:100px;
+    text-align: center;
+     font-weight: bold;
+    font-family: "courier new";
+    
+ 
+}    
+#project:hover{
+     background-color: #c4e6ed;
+     color: white;
+     background: rgba(76, 185, 800, 0.46);
+      text-align: center;
+      
+     
+}
+    #truths:hover{
+     color: white;
+     background: rgba(76, 185, 800, 0.46);
+     
+}
+#hack:hover{
+     background-color: #c4e6ed;
+     color: white;
+     background: rgba(76, 185, 800, 0.46);
+     
+}
+#jokes:hover{
+     background-color: #c4e6ed;
+     color: white;
+     background: rgba(76, 185, 800, 0.46);
+     
+}
+    
