@@ -22,7 +22,7 @@ body{
     background-size:cover;
     background-image: url("http://www.pngall.com/wp-content/uploads/2016/03/Bee-PNG-2.png");
     position: absolute;
-    top: 100px;
+    top: 165px;
     left:100px;
 
     }
@@ -42,7 +42,7 @@ body{
     height: 50px;
     width:50px;
     position: absolute;
-    top: 460px;
+    top: 540px;
     left: 100px;
     border-radius:100px;
   opacity: 0.4;
@@ -58,7 +58,7 @@ body{
     height: 50px;
     width:50px;
     position: absolute;
-    top: 340px;
+    top: 400px;
     left: 360px;
     border-radius:100px;
     opacity: .1;
@@ -91,7 +91,7 @@ body{
     height: 60px;
     width:150px;
     position: absolute;
-    top: 530px;
+    top: 620px;
     left: 70px;
     font-family: "georgia";
     visibility: hidden; 
@@ -101,7 +101,7 @@ body{
      height: 60px;
     width:150px;
      position: absolute;
-    top: 170px;
+    top: 190px;
     left: 350px;
     font-family: "georgia";
     visibility: hidden; 
@@ -124,7 +124,7 @@ body{
     height: 50px;
     width:50px;
     position: absolute;
-    top: 630px;
+    top: 700px;
     left: 450px;
     border-radius:100px;
    opacity: .4;
@@ -139,7 +139,7 @@ body{
      height: 60px;
     width:130px;
      position: absolute;
-    top: 550px;
+    top: 650px;
     left: 520px;
     font-family: "georgia";
     visibility: hidden; 
@@ -154,7 +154,7 @@ body{
     top: 970px;
     left: 530px;
     border-radius:100px;
-    opacity: .3;
+    opacity: .2;
     }
 #abdomen:hover{
      color: white;
@@ -162,3 +162,91 @@ body{
      opacity: .5;
      
 }    
+#abdomentext{
+     height: 60px;
+    width:130px;
+     position: absolute;
+    top: 850px;
+    left: 680px;
+    font-family: "georgia";
+    visibility: hidden; 
+    
+    
+    }
+#eye{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 970px;
+    left: 200px;
+    border-radius:100px;
+    opacity: .2;
+    }
+#eye:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}    
+#eyetext{
+     height: 60px;
+    width:170px;
+     position: absolute;
+    top: 728px;
+    left: 175px;
+    font-family: "georgia";
+    visibility: hidden; 
+    
+    
+    }
+#foreleg{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    border-radius:100px;
+    opacity: .5;
+    }
+#foreleg:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}    
+#forelegtext{
+     height: 60px;
+    width:170px;
+     position: absolute;
+    top: 480px;
+    left: 520px;
+    font-family: "georgia";
+    visibility: hidden;     
+    }
+#hindleg{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 630px;
+    left: 210px;
+    border-radius:100px;
+    opacity: .5;
+    }
+#hindleg:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}    
+#hindlegtext{
+     height: 60px;
+    width:170px;
+     position: absolute;
+    top: 700px;
+    left: 180px;
+    font-family: "georgia";
+    visibility: hidden; 
+}
