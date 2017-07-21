@@ -6,9 +6,10 @@ body{
       font-size: 40px;
       border-style: solid;
     border-width: 4px;
-    width: 343px;
+    width: 450px;
     border-radius: 4px;
-    text-align: center;    
+    text-align: center;  
+    
       }
     p{
         font-family: "courier new";
@@ -16,6 +17,76 @@ body{
         top:70px;
         left: 10px;
         }
+#wasp {
+    height:400px;
+    width:600px;
+    background-size: cover;
+    background-image: url("http://canberrapestcontrol.com.au/wp-content/uploads/2016/07/wasp-feature.png");
+     position: absolute;
+    top: 780px;
+    left:800px;
+
+    }
+#wasp2{
+    height:500px;
+    width:500px;
+    background-size: cover;
+    background-image: url("https://www.rescue.com/core/files/rescue/bugs/eba4a23575ff96056027f388297d66c2.png");
+     position: absolute;
+    top: 200px;
+    left:590px;
+
+    }
+#waspsting{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 530px;
+    left: 1000px;
+    border-radius:100px;
+    opacity: .5;
+    }
+#waspsting:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}    
+#waspstingtext{
+     height: 60px;
+    width:170px;
+     position: absolute;
+    top: 590px;
+    left: 1010px;
+    font-family: "georgia";
+    visibility: hidden; 
+}
+#hatred{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 890px;
+    left: 1030px;
+    border-radius:100px;
+    opacity: .5;
+    }
+#hatred:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}    
+#hatredtext{
+     height: 60px;
+    width:170px;
+     position: absolute;
+    top: 790px;
+    left: 1040px;
+    font-family: "georgia";
+    visibility: hidden; 
+}
 #bee1{
     height: 600px;
     width:450px;
