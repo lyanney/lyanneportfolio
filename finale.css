@@ -1,9 +1,24 @@
 body{
-     background-image: url("https://www.xmple.com/wallpaper/hexagon-honeycomb-beehive-yellow-1920x1080-c2-f8fd8e-e0e65d-l2-9-107-a-20-f-5.svg");
+     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/79/26/0d/79260d265ed92ec1908d7ed6df3cd614.jpg");
+     background-size:cover;
     }
+    h1 {font-family: "courier new";
+      font-size: 40px;
+      border-style: solid;
+    border-width: 4px;
+    width: 343px;
+    border-radius: 4px;
+    text-align: center;    
+      }
+    p{
+        font-family: "courier new";
+        position: absolute;
+        top:70px;
+        left: 10px;
+        }
 #bee1{
     height: 600px;
-    width:400px;
+    width:450px;
     background-size:cover;
     background-image: url("http://www.pngall.com/wp-content/uploads/2016/03/Bee-PNG-2.png");
     position: absolute;
@@ -11,18 +26,139 @@ body{
     left:100px;
 
     }
-#back{
-    font-family: "courier new";
-    font-size: 40px;
-    position: fixed;
-    }
+
  #bee2{
-    height: 400px;
+    height: 500px;
     width:600px;
     background-size:cover;
     background-image: url("http://www.pngall.com/wp-content/uploads/2016/03/Bee-PNG-4.png");
     position: absolute;
-    top: 200px;
-    left:600px;
+    top: 760px;
+    left:60px;
 
     }
+#stinger{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 460px;
+    left: 100px;
+    border-radius:100px;
+  opacity: 0.4;
+    }
+#stinger:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .4;
+     
+}
+#thorax{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 340px;
+    left: 360px;
+    border-radius:100px;
+    opacity: .1;
+    }
+#thorax:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}
+#ant{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    border-radius:100px;
+    opacity: .5;
+    }
+#ant:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}
+
+
+#stingertext{
+    height: 60px;
+    width:150px;
+    position: absolute;
+    top: 530px;
+    left: 70px;
+    font-family: "georgia";
+    visibility: hidden; 
+    
+    }
+#thoraxtext{
+     height: 60px;
+    width:150px;
+     position: absolute;
+    top: 170px;
+    left: 350px;
+    font-family: "georgia";
+    visibility: hidden; 
+    
+    
+    }
+#anttext{
+     height: 60px;
+    width:150px;
+     position: absolute;
+    top: 850px;
+    left: 30px;
+    font-family: "georgia";
+    visibility: hidden; 
+    
+    
+    }
+#forewing{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 630px;
+    left: 450px;
+    border-radius:100px;
+   opacity: .4;
+    }
+#forewing:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}
+#forewingtext{
+     height: 60px;
+    width:130px;
+     position: absolute;
+    top: 550px;
+    left: 520px;
+    font-family: "georgia";
+    visibility: hidden; 
+    
+    
+    }
+#abdomen{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 970px;
+    left: 530px;
+    border-radius:100px;
+    opacity: .3;
+    }
+#abdomen:hover{
+     color: white;
+     background: rgba(76, 185, 800, 1);
+     opacity: .5;
+     
+}    
