@@ -1,4 +1,4 @@
-$$("h1").click(function(){
+$("h1").click(function(){
    alert("The queen bee can lay about 1,500 eggs per day!");
     });
 $("#stinger").hover(function(){
@@ -40,4 +40,14 @@ $("#hindleg").hover(function(){
     $("#hindlegtext").css("visibility", "visible");
 }, function(){
         $("#hindlegtext").css("visibility","hidden");
+        });
+$("#waspsting").hover(function(){
+    $("#waspstingtext").css("visibility", "visible");
+}, function(){
+        $("#waspstingtext").css("visibility","hidden");
+        });
+$("#hatred").hover(function(){
+    $("#hatredtext").css("visibility", "visible");
+}, function(){
+        $("#hatredtext").css("visibility","hidden");
         });
