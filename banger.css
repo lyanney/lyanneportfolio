@@ -1,0 +1,22 @@
+h1{
+    font-family: "lucida console";
+    
+}
+body{
+    background: #e6e6ff;
+    
+    
+}
+#button1{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    border-radius: 10px;
+    
+    }
+#text1{
+    
+    
+    
+    }
